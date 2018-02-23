@@ -1,0 +1,34 @@
+.modal {
+  height: 100%;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+
+.modal.is-active .modal-secondary {
+    display: initial;
+}
+
+.modal, .modal-secondary, .modal.is-active {
+    max-width: 650rpx;
+    left: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.modal-secondary {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: #fff;
+}
+
+.modal-secondary form {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 30rpx 36rpx 30rpx 120rpx;
+}

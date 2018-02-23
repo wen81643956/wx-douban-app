@@ -1,0 +1,10 @@
+<view class="modal is-active">
+  <view class="modal-secondary">
+    <navigator class="close-nav">关闭</navigator>
+    <form>
+      <view>
+        <input type="text" confirm-type="search" />
+      </view>
+    </form>
+  </view>
+</view>

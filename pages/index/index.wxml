@@ -10,9 +10,8 @@
         <view class="search"></view>
       </view>
     </view>
-    <view class="TalionNav-secondary">
-    </view>
   </view>
 </view>
 <view>
 </view>
+<search></search>
