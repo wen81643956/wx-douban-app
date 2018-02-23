@@ -1,0 +1,14 @@
+page {
+    margin: 0;
+    color: #111;
+    font-size: 24rpx;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    position: relative;
+}
+
+.h1 {
+    margin: 60rpx 0 10rpx;
+    font-size: 48rpx;
+    line-height: 64rpx;
+    word-break: break-all;
+}
