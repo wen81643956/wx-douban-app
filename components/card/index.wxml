@@ -1,2 +1,6 @@
-<!--components/cardList/index.wxml-->
-<text>components/cardList/index.wxml</text>
+<view class="section">
+  <view class="header">
+    <text class="h2">影院热映</text>
+    <navigator>更多</navigator>
+  </view>
+</view>

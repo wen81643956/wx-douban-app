@@ -13,6 +13,16 @@ page {
     word-break: break-all;
 }
 
+.h2 {
+    color: #aaa;
+    margin: 0 0 30rpx;
+    font-size: 30rpx;
+}
+
+navigator {
+    color: #42bd56;
+}
+
 page .page, page #app, page .msite-max-width, page .msite-fixed-max-width {
     max-width: 1300rpx;
 }

@@ -2,7 +2,7 @@
   <nav></nav>
   <view class="page">
     <view class="card">
-      
+      <card></card>
     </view>
   </view>
   <search></search>
