@@ -1,0 +1,74 @@
+.recommend-feed {
+    margin-right: -36rpx;
+    margin-left: -36rpx;
+    margin-top: 4rpx;
+    min-height: 960rpx;
+    color: #494949;
+    -webkit-text-size-adjust: 100%;
+}
+
+.recommend-feed .feed-item {
+    display: block;
+    padding: 50rpx 36rpx 50rpx 0;
+    margin-left: 36rpx;
+    position: relative;
+    color: #494949;
+}
+
+.recommend-feed .feed-content {
+    overflow: hidden;
+    margin-bottom: 20rpx;
+}
+
+.recommend-feed .feed-content .recommend-title {
+    text-align: justify;
+    font-size: 34rpx;
+    font-weight: 500;
+    line-height: 1.41;
+    color: #494949;
+    margin-bottom: 12rpx;
+}
+
+.recommend-feed .feed-content .recommend-content {
+    overflow: hidden;
+    text-align: justify;
+    color: #aaa;
+    font-size: 24rpx;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.recommend-feed .feed-content .cover {
+    width: 25.6%;
+    margin-left: 50rpx;
+    float: right;
+}
+
+.recommend-feed .feed-item .author {
+    font-size: 24rpx;
+    color: #ccc;
+}
+
+.recommend-feed .feed-item .feed-label {
+    position: absolute;
+    bottom: 50rpx;
+    right: 36rpx;
+    font-size: 24rpx;
+    color: #ccc;
+}
+
+.recommend-feed .feed-item ~ .feed-item::before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2rpx;
+    background: #e3e3e3;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+    content: '';
+    position: absolute;
+    transform-origin: 0 bottom;
+    -webkit-transform-origin: 0 bottom;
+}

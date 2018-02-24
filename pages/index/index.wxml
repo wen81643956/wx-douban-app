@@ -1,17 +1,23 @@
 <view>
-  <view id="TalionNav">
-    <view class="TalionNav-primary">
-      <navigator class="h1 nav-title">豆瓣</navigator>
-      <view class="nav">
-        <navigator style="color: #2384E8;">电影</navigator>
-        <navigator style="color: #9F7860;">图书</navigator>
-        <navigator style="color: #E4A813;">广播</navigator>
-        <navigator style="color: #2AB8CC;">小组</navigator>
-        <view class="search"></view>
+  <nav></nav>
+  <view class="page">
+    <view class="card">
+      <view class="quick-nav">
+        <view>
+          <navigator>影院热映</navigator>
+        </view>
+        <view>
+          <navigator>同城活动</navigator>
+        </view>
+        <view>
+          <navigator>豆瓣时间</navigator>
+        </view>
+        <view>
+          <navigator>使用豆瓣app</navigator>
+        </view>
       </view>
+      <recommend></recommend> 
     </view>
   </view>
+  <search></search>
 </view>
-<view>
-</view>
-<search></search>

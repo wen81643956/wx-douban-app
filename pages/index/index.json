@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "search": "/components/search/index"
+    "nav": "/components/nav/index",
+    "search": "/components/search/index",
+    "recommend": "/components/recommend/index"
   }
 }

@@ -12,3 +12,24 @@ page {
     line-height: 64rpx;
     word-break: break-all;
 }
+
+page .page, page #app, page .msite-max-width, page .msite-fixed-max-width {
+    max-width: 1300rpx;
+}
+
+.navigator-hover {
+    background-color: #fff; 
+    opacity: 0.7;
+}
+
+.page {
+    padding-top: 94rpx;
+    background: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.card {
+    margin: 0 36rpx;
+    -webkit-text-size-adjust: 100%;
+}

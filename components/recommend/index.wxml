@@ -1,0 +1,32 @@
+<view class="recommend-feed">
+  <view>
+    <view class="feed-section">
+      <navigator class="feed-item">
+        <view class="feed-content">
+          <view class="cover" style="position: relative; background: url({{imageUrl}}) center center / cover no-repeat rgb(250, 250, 250);">
+            <view style="padding-top: 100%;"></view>
+          </view>
+          <view class="recommend-title">燃到炸裂！春节档我只为这部电影打call</view>
+          <view class="recommend-content">2018年第8周，《红海行动》《唐人街探案2》《捉妖记2》等贺岁档强片纷纷上榜，电影榜排名大换血；备受期待的《舌尖上的中国 第三季》口碑平平， 对于一部美食纪录片来说，“不能下饭”应该算得上是致命硬伤和重大失职 。</view>
+        </view>
+        <view class="author">
+          by <text class="name">豆瓣电影</text>
+        </view>
+        <view class="feed-label">来自栏目 一周热门影视</view>
+      </navigator>
+      <navigator class="feed-item">
+        <view class="feed-content">
+          <view class="cover" style="position: relative; background: url({{imageUrl}}) center center / cover no-repeat rgb(250, 250, 250);">
+            <view style="padding-top: 100%;"></view>
+          </view>
+          <view class="recommend-title">燃到炸裂！春节档我只为这部电影打call</view>
+          <view class="recommend-content">2018年第8周，《红海行动》《唐人街探案2》《捉妖记2》等贺岁档强片纷纷上榜，电影榜排名大换血；备受期待的《舌尖上的中国 第三季》口碑平平， 对于一部美食纪录片来说，“不能下饭”应该算得上是致命硬伤和重大失职 。</view>
+        </view>
+        <view class="author">
+          by <text class="name">豆瓣电影</text>
+        </view>
+        <view class="feed-label">来自栏目 一周热门影视</view>
+      </navigator>
+    </view>
+  </view>
+</view>
