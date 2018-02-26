@@ -1,0 +1,12 @@
+<view class="interests section">
+  <view class="header">
+    <text class="h2">发现好电影</text>
+  </view>
+  <view class="section-content">
+    <view class="content-list">
+      <view class="content-item" style="border-color: {{item.color}};" wx:for="{{finderList}}" wx:key="{{item}}">
+        <navigator style="color: {{item.color}};">{{item.title}}</navigator>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,6 +1,31 @@
 <view class="section">
   <view class="header">
-    <text class="h2">影院热映</text>
+    <text class="h2">{{title}}</text>
     <navigator>更多</navigator>
+  </view>
+  <view class="section-content">
+    <view class="row items">
+      <navigator class="item item-movie" wx:for="{{cardList.subject_collection_items}}" wx:key="{{item}}">
+        <view class="item-poster" style="background-image: url({{item.cover.url}})"></view>
+        <text class="item-title">{{item.title}}</text>
+        <view class="item-rating">
+          <view class="rank">
+            <view class="rating-stars">
+              <view class="rating-star rating-star-small-full" wx:if="{{item.rating.value > 2}}"></view>
+              <view class="rating-star rating-star-small-gray" wx:else></view>
+              <view class="rating-star rating-star-small-full" wx:if="{{item.rating.value > 4}}"></view>
+              <view class="rating-star rating-star-small-gray" wx:else></view>
+              <view class="rating-star rating-star-small-full" wx:if="{{item.rating.value > 6}}"></view>
+              <view class="rating-star rating-star-small-gray" wx:else></view>
+              <view class="rating-star rating-star-small-full" wx:if="{{item.rating.value > 8}}"></view>
+              <view class="rating-star rating-star-small-gray" wx:else></view>
+              <view class="rating-star rating-star-small-full" wx:if="{{item.rating.value > 9.1}}"></view>
+              <view class="rating-star rating-star-small-gray" wx:else></view>
+            </view>
+            <text> {{item.rating.value % 1 !== 0 ? item.rating.value : (item.rating.value + '.0')}}</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
   </view>
 </view>

@@ -1,0 +1,69 @@
+.section {
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.section:first-child {
+    padding-top: 20rpx;
+}
+
+.section .header {
+    padding: 0 36rpx;
+}
+
+.section .h2 {
+    display: inline-block;
+    min-width: 80rpx;
+    margin-bottom: 0;
+    color: #111;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 34rpx;
+}
+
+.clearfix:after, .card .section>.header:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.section .section-content {
+    margin-bottom: -36rpx;
+}
+
+.interests .content-list {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 30rpx 30rpx 86rpx 30rpx;
+    font-size: 0;
+    margin-left: -10rpx;
+    -webkit-overflow-scrolling: touch;
+}
+
+.interests .content-item {
+    margin: 0 0 16rpx 16rpx;
+    font-size: 30rpx;
+    display: inline-block;
+    border-radius: 8rpx;
+    border: solid 2rpx;
+    vertical-align: middle;
+}
+
+.interests navigator {
+    height: 100rpx;
+    line-height: 100rpx;
+    padding: 0 49.6rpx;
+    letter-spacing: .1em;
+    overflow: auto;
+    display: block;
+    text-align: center;
+}
+
+.interests navigator.line {
+    width: 100%;
+    display: block;
+    height: 1rpx;
+    border: 0;
+    margin: 0;
+}

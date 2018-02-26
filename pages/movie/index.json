@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "nav": "/components/nav/index",
-    "card": "/components/card/index"
+    "card": "/components/card/index",
+    "finder": "/components/finder/index",
+    "classify": "/components/classify/index"
   }
 }

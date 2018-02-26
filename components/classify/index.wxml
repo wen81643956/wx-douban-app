@@ -1,0 +1,13 @@
+<view class="types section">
+  <view class="header">
+    <text class="h2">分类浏览</text>
+  </view>
+  <view class="section-content">
+    <view class="type-list">
+      <view class="item">
+        <navigator>经典</navigator>
+        <view></view>
+      </view>
+    </view>
+  </view>
+</view>

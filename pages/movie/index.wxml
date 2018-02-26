@@ -2,7 +2,11 @@
   <nav></nav>
   <view class="page">
     <view class="card">
-      <card></card>
+      <card title="影院热映" card-list="{{movieList[0]}}"></card>
+      <card title="免费在线观看" card-list="{{movieList[1]}}"></card>
+      <card title="新片速递" card-list="{{movieList[2]}}"></card>
+      <finder finder-list="{{finderList}}"></finder>
+      <classify></classify>
     </view>
   </view>
   <search></search>

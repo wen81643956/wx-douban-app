@@ -1,1 +1,3 @@
-/* pages/movie/index.wxss */
+.card {
+  margin: 0;
+}
