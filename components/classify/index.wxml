@@ -1,13 +1,14 @@
 <view class="types section">
   <view class="header">
-    <text class="h2">分类浏览</text>
+    <text class="h2">{{title}}</text>
   </view>
   <view class="section-content">
     <view class="type-list">
-      <view class="item">
-        <navigator>经典</navigator>
-        <view></view>
-      </view>
+      <view class="item" wx:for="{{classifyList}}" wx:key="{{item}}">
+        <navigator>{{item.title}}
+          <view class="arrow"></view>
+        </navigator>
+      </view>ß
     </view>
   </view>
 </view>

@@ -1,6 +1,6 @@
 <view class="TalionNav">
   <view class="TalionNav-primary">
-    <navigator class="h1 nav-title">豆瓣</navigator>
+    <navigator class="h1 nav-title" url="/pages/index/index">豆瓣</navigator>
     <view class="nav">
       <navigator url="/pages/movie/index" style="color: #2384E8;">电影</navigator>
       <navigator style="color: #9F7860;">图书</navigator>

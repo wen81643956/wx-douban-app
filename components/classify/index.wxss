@@ -41,24 +41,44 @@
 }
 
 .type-list {
-    padding: 1.12rem 0 1.88rem;
+    padding: 36rpx 0 60rpx;
     color: #eee;
-    font-size: .9rem;
+    font-size: 28rpx;
     overflow: hidden;
 }
 
 .type-list .item {
-    width: 41.5%;
+    width: 40.5%;
     border-top: solid 1px #eee;
     border-right: solid 1px #eee;
     float: left;
-    padding-right: 1.12rem;
-    height: 2.64rem;
+    padding-right: 36rpx;
+    height: 84rpx;
 }
 
-.type-list nagigator {
+.type-list .item:nth-child(even) {
+    border-right: none;
+    padding-left: 36rpx;
+}
+
+.type-list navigator {
     float: left;
-    display: inline-block;
     width: 100%;
-    line-height: 2.64rem;
+    line-height: 84rpx;
+}
+
+.type-list .arrow {
+    color: #ccc;
+    float: right;
+    font-weight: bold;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    width: 16rpx;
+    height: 16rpx;
+    transform: rotate(-45deg);
+    margin-top: 32rpx;
+}
+
+.type-list .item:last-child, .type-list .item:nth-last-child(2) {
+    border-bottom: solid 1px #eee;
 }

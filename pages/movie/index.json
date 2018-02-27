@@ -4,5 +4,6 @@
     "card": "/components/card/index",
     "finder": "/components/finder/index",
     "classify": "/components/classify/index"
-  }
+  },
+  "navigationBarTitleText": "电影 - 豆瓣"
 }

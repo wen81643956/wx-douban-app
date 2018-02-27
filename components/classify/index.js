@@ -2,17 +2,16 @@ Component({
   properties: {
     title: {
       type: String,
-      value: ''
+      value: '分类浏览'
     },
-    cardList: {
+    classifyList: {
       type: Array,
       value: []
     }
   },
   data: {
     // 这里是一些组件内部数据
-    someData: {},
-    imageUrl: 'https://img3.doubanio.com/view/photo/m_ratio_poster/public/p2514175916.jpg'
+    someData: {}
   },
   methods: {
     // 这里是一个自定义方法

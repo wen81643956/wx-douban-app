@@ -6,7 +6,7 @@
       <card title="免费在线观看" card-list="{{movieList[1]}}"></card>
       <card title="新片速递" card-list="{{movieList[2]}}"></card>
       <finder finder-list="{{finderList}}"></finder>
-      <classify></classify>
+      <classify classify-list="{{classifyList}}"></classify>
     </view>
   </view>
   <search></search>
