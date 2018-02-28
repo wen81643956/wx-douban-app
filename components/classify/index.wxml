@@ -8,7 +8,7 @@
         <navigator>{{item.title}}
           <view class="arrow"></view>
         </navigator>
-      </view>ß
+      </view>
     </view>
   </view>
 </view>

@@ -1,29 +1,7 @@
+@import "/common/common.wxss";
+
 .types {
     margin-right: -50rpx;
-}
-
-.section {
-    margin: 0;
-    overflow: hidden;
-    background-color: #fff;
-}
-
-.section:first-child {
-    padding-top: 20rpx;
-}
-
-.section .header {
-    padding: 0 36rpx;
-}
-
-.section .h2 {
-    display: inline-block;
-    min-width: 80rpx;
-    margin-bottom: 0;
-    color: #111;
-    padding-left: 0;
-    padding-bottom: 0;
-    font-size: 34rpx;
 }
 
 .clearfix:after, .card .section>.header:after {

@@ -1,1 +1,54 @@
-/* components/product/index.wxss */
+@import "/common/common.wxss";
+
+.prom-book {
+    display: block;
+    overflow: hidden;
+    margin: 30rpx 36rpx 0;
+}
+
+.prom-book .cover {
+    float: left;
+    width: 200rpx;
+    height: 264rpx;
+    margin-right: 30rpx;
+}
+
+.prom-book .content {
+    overflow: hidden;
+}
+
+.prom-book .title {
+    margin: 20rpx 0;
+}
+
+.prom-book .price {
+    float: right;
+    color: #E76648;
+    font-size: 32rpx;
+    line-height: 44rpx;
+}
+
+.prom-book .name {
+    font-size: 38rpx;
+    color: #494949;
+    margin-right: 80rpx;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.prom-book .info {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.prom-book .info, .prom-book .infoWithReviewer, .prom-book .info, prom-book .reviewer {
+    font-size: 26rpx;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #9B9B9B;
+}

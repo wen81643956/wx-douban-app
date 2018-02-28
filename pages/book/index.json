@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "nav": "/components/nav/index",
+    "card": "/components/card/index",
+    "finder": "/components/finder/index",
+    "classify": "/components/classify/index",
+    "product": "/components/product/index"
+  },
+  "navigationBarTitleText": "图书 - 豆瓣"
+}

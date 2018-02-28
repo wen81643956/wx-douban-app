@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/log/index",
-    "pages/movie/index"
+    "pages/movie/index",
+    "pages/book/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

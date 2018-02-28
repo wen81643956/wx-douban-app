@@ -3,7 +3,7 @@
     <navigator class="h1 nav-title" url="/pages/index/index">豆瓣</navigator>
     <view class="nav">
       <navigator url="/pages/movie/index" style="color: #2384E8;">电影</navigator>
-      <navigator style="color: #9F7860;">图书</navigator>
+      <navigator url="/pages/book/index" style="color: #9F7860;">图书</navigator>
       <navigator style="color: #E4A813;">广播</navigator>
       <navigator style="color: #2AB8CC;">小组</navigator>
       <view class="search"></view>

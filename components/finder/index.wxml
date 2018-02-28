@@ -1,6 +1,6 @@
 <view class="interests section">
   <view class="header">
-    <text class="h2">发现好电影</text>
+    <text class="h2">{{title}}</text>
   </view>
   <view class="section-content">
     <view class="content-list">

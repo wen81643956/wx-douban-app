@@ -29,9 +29,9 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "movie",
-					"pathName": "pages/movie/index",
+					"pathName": "pages/book/index",
 					"query": ""
 				}
 			]

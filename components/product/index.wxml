@@ -1,2 +1,16 @@
-<!--components/product/index.wxml-->
-<text>components/product/index.wxml</text>
+<view class="section">
+  <view class="header">
+    <text class="h2">{{title}}</text>
+    <navigator>更多</navigator>
+  </view>
+  <navigator class="prom-book">
+    <image class="cover" src="{{sku.header.cover.url}}"></image>
+    <view class="content">
+      <view class="title">
+        <text class="price">¥ {{sku.header.price}}</text>
+        <text class="name">{{sku.header.title}}</text>
+      </view>
+      <text class="info">{{sku.header.info}}</text>
+    </view>
+  </navigator>
+</view>
