@@ -5,6 +5,8 @@
 
 * 预览图
 
-  ![image](https://imgcache.vikduo.com/oss/a0b1f7d746fbb54126faff5724b251f6.jpg)
-  ![image](https://imgcache.vikduo.com/oss/6d6919fcc08785bbc416fe27d253b3ec.jpg)
-  ![image](https://imgcache.vikduo.com/oss/a9e3638c64134d5c4993d96e1d0a0bb9.jpg)
+  <div align="center">
+    <img src="https://imgcache.vikduo.com/oss/a0b1f7d746fbb54126faff5724b251f6.jpg" width="367" height="667" align=center />
+    <img src="https://imgcache.vikduo.com/oss/6d6919fcc08785bbc416fe27d253b3ec.jpg" width="367" height="667" align=center />
+    <img src="https://imgcache.vikduo.com/oss/a9e3638c64134d5c4993d96e1d0a0bb9.jpg" width="367" height="667" align=center />
+  </div>
